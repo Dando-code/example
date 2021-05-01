@@ -1,0 +1,169 @@
+body{color:#ca8a8b;
+    font-family:'Original Surfer', cursive;
+    text-align:center;}
+
+
+h1{font-family:'Bangers', cursive;
+    margin-bottom:2%;}
+
+h2{
+    font-weight:bold;
+    font-size:3rem;
+    width:50%;
+    margin:20px auto 35px;}
+
+h2, h3{font-family:'New Tegomin', serif;} 
+
+
+h3{
+    font-size:1.5rem;
+    margin:0 auto 40px;
+    width:50%;}
+
+.sTit{margin:0 auto 65px;}
+
+    /*****NAVBAR****/
+
+.nav{background-color:#98ddca;
+    padding:5% 7%;}
+
+    .nav-link{color:#ca8a8b;}
+
+        .nav-link:hover{color:#d8f8b7;}
+
+.navIcon{color:#ca8a8b;}
+
+.navbar-brand{margin:0 auto 0 0;}
+
+
+
+/*****TITLE SECTION*****/
+
+/*#toSe{}*/
+
+.tImg{width:90%;
+    height:auto;}
+
+
+.toSeCol{text-align:left;}
+
+
+@media (max-width:900px){
+    .toSeCol{
+        margin:0 auto;
+        text-align:center;}
+}
+
+#toSe h1{margin:0 auto 5%;
+}
+
+
+#toSe h3{margin:0 auto 5% 0;
+    text-align:left;
+}
+
+#toSe button{background-color:#845460;
+    color:#ca8a8b;
+    margin:3% 12px 5% 0;
+    }
+
+    #toSe button:hover{background-color:#ca8a8b;
+        border-color:#d8f8b7;
+        color:#ca8a8b;}
+
+#toSe a{color:#ca8a8b;
+        text-decoration:none;}
+    
+    #toSe a:hover{color:#d8f8b7;
+            text-decoration:none;}
+
+#toSe p{margin:10% auto 10% 10%;}
+
+
+
+.crdIm{width:300px;
+    height:auto;
+}
+
+#toSe .row{background-color:#845460; 
+    padding:5% 7%;
+}
+
+/*esempio di combo di selettori,si legge:
+tutti gli elementi aventi classe row contenuti nell'elemento avente id toSe(top-section) avranno{istruzioni qui}*/
+
+/*****MEDSECTION*****/
+
+#meSe{background-color:#ead3cb;
+    color:#845460;
+    padding:5% 7% 8%;
+}
+
+#meSe img{
+    margin-left:90px;
+    margin-right:20px;
+    width:200px;
+}
+
+
+.carBtn{color:#845460;}
+
+/*****BOTTOMSECTION*****/
+
+#boSe{background-color:#2b4f60;}
+
+#boSe .container-fluid{padding:5% 7%;}
+
+/*esempio di combo di selettori si legge:
+tutti gli elementi avente classe container-fluid 
+contenuti nell'elemento avente id boSe {istruzioni qui}*/
+
+#boSe h2{font-size:2rem;
+width:100%;}
+
+/*esempio di combo di selettori,si legge:
+tutti gli elementi h2 contenuti nell'elemento avente id boSe(bottom section) avranno {istruzioni qui}*/
+
+
+#boSe img{height:140px;
+    width:250px;}
+
+/*****FOOTSECTION******/
+
+#foSe{background-color:#98ddca;
+    color:#845460;
+    padding:5% 5%;
+    text-align:center;
+}
+
+#foSe h1{width:60%;
+    margin:0 auto;
+}
+
+#foSe nav{padding:2% 7% 2%;}
+
+.foBtn{background-color:#98ddca;
+    border:#a35709;
+    margin:10px 12px 0 12px;
+    }
+
+    .foBtn:hover{background-color:#ca8a8b;
+        border-color:#d8f8b7;
+        color:#d8f8b7}
+
+.foRow{margin:20px auto 0;
+    }
+
+#foSe a{color:#ca8a8b;
+        text-decoration:none;}
+
+    #foSe a:hover{color:#d8f8b7;
+            text-decoration:none;}
+
+
+
+.credits{margin:0 auto;}
+
+
+
+
